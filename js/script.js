@@ -1,17 +1,11 @@
-// let one  = prompt("son kiriting:")
-// let two = prompt("son kiriting:")
 
-// console.log(+one + +two)
-// console.log(one - two)
-// console.log(one * two)
-// console.log(one / two)
 
-let firstName = prompt("Ismingizni kiriting...")
+let Name = prompt("Ismingizni kiriting...")
 let surName = prompt("Familiyangizni kiriting...")
 let age = prompt("Yoshingizni kiriting...")
-let yourSchool = prompt("O`qish joyingizni kiriting...")
+let School = prompt("O`qish joyingizni kiriting...")
 
-let object = {
+let menu = {
     name: firstName,
     lastName: surName,
     age: age,
