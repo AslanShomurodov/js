@@ -1,12 +1,24 @@
-let one  = prompt("son kiriting:")
-// let action  = prompt("amalni kiriting:")
-let two = prompt("son kiriting:")
+// let one  = prompt("son kiriting:")
+// let two = prompt("son kiriting:")
 
-// console.log(one + two)
-// let onenum = 20
-// let twonum = 20
+// console.log(+one + +two)
+// console.log(one - two)
+// console.log(one * two)
+// console.log(one / two)
 
-console.log(+one + +two)
-console.log(one - two)
-console.log(one * two)
-console.log(one / two)
+let firstName = prompt("Ismingizni kiriting...")
+let surName = prompt("Familiyangizni kiriting...")
+let age = prompt("Yoshingizni kiriting...")
+let yourSchool = prompt("O`qish joyingizni kiriting...")
+
+let object = {
+    name: firstName,
+    lastName: surName,
+    age: age,
+    school: yourSchool
+}
+
+console.log("Ism: " + object["name"])
+console.log("Familiya: " + object["lastName"])
+console.log("Yosh: " + object["age"])
+console.log("O`qish joy : " + object["school"])
