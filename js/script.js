@@ -1,5 +1,3 @@
-
-
 let Name = prompt("Ismingizni kiriting...")
 let surName = prompt("Familiyangizni kiriting...")
 let age = prompt("Yoshingizni kiriting...")
